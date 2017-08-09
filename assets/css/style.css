@@ -67,6 +67,9 @@ font-family: 'Raleway', sans-serif;
 /*Seccion imagen 3*/
 .img {
 	font-size: 0;
+	-webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+
 }
 
 /*Sección pictures*/
