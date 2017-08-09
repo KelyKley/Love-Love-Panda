@@ -79,14 +79,14 @@ font-family: 'Raleway', sans-serif;
 	border-bottom: 25px solid #F78E69; 
 }
 
-.a1, .a2, .a3, .a4 {
+.cuadros {
 	border: 12px solid white;
 	margin: 30px;
 }
-.cuadros { 
+#cuadros { 
 	text-align: center;
 }
-.cuadros h1 {
+#cuadros h1 {
 	color: white;
 	font-size: 2.5em;
 	padding-bottom: 20px;
