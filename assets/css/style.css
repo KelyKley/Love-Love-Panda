@@ -1,0 +1,106 @@
+/*
+Colores & tipografía: 
+Verde - #ABE188;
+Rosa - #F78E69;
+font-family: 'Raleway', sans-serif;
+*/
+
+/* Escribe tu código acá debajo */
+
+*{
+	/*background: #F78E69;*/
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Raleway", sans-serif;
+	font-size: 16px;
+}
+
+/*Sección bienvenida*/
+#bienvenida {
+	background: #F78E69;
+	background-size: cover;
+	background-position: center; 
+	padding: 50px 0;
+}
+
+.encabezado{
+	color: white;
+	padding: 15px 45px;
+	text-align: right;
+}
+
+.encabezado h1{
+	font-size: 3em;
+	line-height: 5rem;
+}
+
+/*Sección de información*/
+#informacion {
+	background: #ABE188;
+	background-size: cover;
+	background-position: center; 
+	padding: 50px 0;
+	border-top: 25px solid #F78E69;
+	border-bottom: 25px solid #F78E69; 
+}
+
+.info {
+	text-align: center;
+	background: #F78E69;
+	color: white;
+	padding: 30px;
+	border-radius: 3px;
+	font-size: 1.5em;
+	width: 50%;
+	margin-left: auto;
+ 	margin-right:auto;
+}
+
+.info h1 {
+	font-size: 1.5em;
+	padding-bottom: 20px;
+}
+
+/*Seccion portada*/
+/*Sección imagen 2*/
+/*Seccion imagen 3*/
+.img {
+	font-size: 0;
+}
+
+/*Sección pictures*/
+#pictures {
+	background: #ABE188;
+	background-size: cover;
+	background-position: center; 
+	padding: 50px 0;
+	border-top: 25px solid #F78E69;
+	border-bottom: 25px solid #F78E69; 
+}
+
+.a1, .a2, .a3, .a4 {
+	border: 12px solid white;
+	margin: 30px;
+}
+.cuadros { 
+	text-align: center;
+}
+.cuadros h1 {
+	color: white;
+	font-size: 2.5em;
+	padding-bottom: 20px;
+}
+
+/*Sección Footer*/
+footer {
+	background: #F78E69;
+	padding: 20px;
+	padding-bottom: 30px;
+	color: white;
+}
+footer p {
+	float: right;
+	font-weight: bolder;
+	font-size: 1.2em;
+}
